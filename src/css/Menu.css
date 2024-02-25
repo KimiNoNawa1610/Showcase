@@ -1,0 +1,34 @@
+/* Menu.css */
+.menu {
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Evenly distribute items horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: #333; /* Background color for the menu */
+    color: white; /* Text color */
+    padding-left: 50%;
+  }
+  
+  .menu-list {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for the list items */
+  }
+  
+  .menu-list li {
+    padding: 20px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: white; /* Text color for links */
+  }
+  
+  .menu-list li a:hover {
+    font-weight: bold;
+    background-color: white;
+    color:#333;
+
+  }
+  
+  

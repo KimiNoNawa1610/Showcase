@@ -1,0 +1,43 @@
+.services{
+  background-color: gray;
+}
+
+.title{
+  text-align: center;
+}
+
+/* Add this CSS in your stylesheet */
+.services-container {
+  text-align: center; /* Center align content */
+}
+
+.services-table {
+  border-collapse: collapse;
+  margin: 0 auto; /* Center align table */
+}
+
+.services-table th,
+.services-table td {
+  padding: 8px;
+  border: none;
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center; /* Center align table cells */
+}
+
+.services-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.consulting{
+  background-color: blueviolet;
+}
+
+.customer-benefits{
+  background-color: brown;
+}
+
+.contacts{
+  background-color: green;
+}
