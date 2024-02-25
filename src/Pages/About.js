@@ -1,16 +1,18 @@
 import React from "react";
-import SolutionStep from "../components/SolutionStep";
-import "../css/About.css";
+import SolutionStep from "../components/SolutionStep"; // Importing the SolutionStep component
+import "../css/About.css"; // Importing the CSS file for styling
 
-
-function About() {
+// About component represents the About Us section of the application
+const About = () => {
   return (
     <div className="about-section" id="about">
+      {/* About section content */}
       <div className="about-image-content">
         <img src='/about.jpg' alt="description" className="about-image1" />
       </div>
 
       <div className="about-text-content">
+        {/* About section title and description */}
         <h3 className="about-title">
           <span>About Us</span>
         </h3>
@@ -18,8 +20,10 @@ function About() {
           Description
         </p>
 
+        {/* Subtitle for solutions */}
         <h4 className="about-text-title">Your Solutions</h4>
 
+        {/* Rendering SolutionStep components with different titles and descriptions */}
         <SolutionStep
           title="a"
           description="a"
@@ -39,4 +43,5 @@ function About() {
   );
 }
 
+// Export About component
 export default About;

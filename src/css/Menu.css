@@ -5,7 +5,7 @@
     align-items: center; /* Center items vertically */
     background-color: #333; /* Background color for the menu */
     color: white; /* Text color */
-    padding-left: 50%;
+    
   }
   
   .menu-list {
@@ -13,6 +13,7 @@
     padding: 0;
     margin: 0;
     display: flex; /* Use flexbox for the list items */
+    padding-left: 50%;
   }
   
   .menu-list li {

@@ -4,6 +4,7 @@ import imageList from '../components/ImageList'; // Import the list of image fil
 import { Slide } from 'react-slideshow-image';
 import { faObjectGroup, faBuilding, faHouse, faCampground } from "@fortawesome/free-solid-svg-icons";
 import InformationCard from "../components/InformationCard";
+import Process from '../components/Process';
 import 'react-slideshow-image/dist/styles.css';
 import '../css/Home.css';
 
@@ -52,6 +53,9 @@ const Home = () => {
             <br/>
 
             <div className='services'>
+                <h3 className="services-title">
+                    <span>Services</span>
+                </h3>
                 <table className="services-table">
                     
                     <tbody>
@@ -93,21 +97,13 @@ const Home = () => {
 
             <br/>
 
-            <div className='consulting'>
-                this is a consulting
-            </div>
+            <Process/>
 
             <br/>
 
             <div className='customer-benefits'>
                 customer benefits
             </div>
-
-            <br/>
-
-            <footer className='contacts'>
-                this is contacts
-            </footer>
 
         </div>
     );

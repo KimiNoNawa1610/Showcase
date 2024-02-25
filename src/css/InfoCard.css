@@ -3,7 +3,7 @@
     margin: 64px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    gap: 22px;
 }
 .info-cards {
     height: auto;
@@ -21,7 +21,7 @@
     letter-spacing: .8px;
 }
 .info-card-description {
-    margin: 24px;
+    margin: 34px;
     color: rgb(77, 75, 75);
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
@@ -31,12 +31,12 @@
 .info-card-icon {
     position: absolute;
     top: -24px;
-    left: 44%;
+    left: 14%;
     padding: 10px;
     background-color: #DCE6FF;
     border-radius: 30px;
 }
 .info-fa-icon {
-    color: #2C96FF;
+    color: #F8560F;
     font-size: 24px;
 }
