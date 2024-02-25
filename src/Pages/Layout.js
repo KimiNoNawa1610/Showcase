@@ -1,6 +1,6 @@
 // Layout.js
 import React from 'react';
-import Menu from './Menu';
+import Menu from '../components/Menu';
 
 const Layout = ({ children }) => {
   return (

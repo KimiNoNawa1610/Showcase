@@ -1,7 +1,7 @@
 // Menu.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './css/Menu.css'; // Import the CSS file for styling
+import '../css/Menu.css'; // Import the CSS file for styling
 
 const Menu = () => {
   return (

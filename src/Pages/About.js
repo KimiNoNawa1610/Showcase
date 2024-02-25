@@ -1,13 +1,13 @@
 import React from "react";
-import SolutionStep from "./SolutionStep";
-import "./css/About.css";
+import SolutionStep from "../components/SolutionStep";
+import "../css/About.css";
 
 
 function About() {
   return (
     <div className="about-section" id="about">
       <div className="about-image-content">
-        <img src='/about.js' alt="description" className="about-image1" />
+        <img src='/about.jpg' alt="description" className="about-image1" />
       </div>
 
       <div className="about-text-content">

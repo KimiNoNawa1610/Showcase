@@ -1,9 +1,9 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './Layout';
-import Home from './Home';
-import About from './About';
+import Layout from './Pages/Layout';
+import Home from './Pages/Home';
+import About from './Pages/About';
 // import Services from './Services';
 // import Projects from './Projects';
 // import Blog from './Blog';

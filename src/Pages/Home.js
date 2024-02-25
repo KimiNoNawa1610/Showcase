@@ -1,11 +1,11 @@
 // Home.js
 import React, { useState, useEffect }  from 'react';
-import imageList from './ImageList'; // Import the list of image filenames
+import imageList from '../components/ImageList'; // Import the list of image filenames
 import { Slide } from 'react-slideshow-image';
 import { faObjectGroup, faBuilding, faHouse, faCampground } from "@fortawesome/free-solid-svg-icons";
-import InformationCard from "./InformationCard";
+import InformationCard from "../components/InformationCard";
 import 'react-slideshow-image/dist/styles.css';
-import './css/Home.css';
+import '../css/Home.css';
 
 
 const spanStyle = {
