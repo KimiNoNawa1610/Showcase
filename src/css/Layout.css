@@ -143,4 +143,7 @@
     fill: #1A8EFD;
     border: 2px solid #1A8EFD;
 }
-  
+.content{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
