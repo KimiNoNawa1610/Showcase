@@ -1,37 +1,50 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCircleCheck,
-} from "@fortawesome/free-solid-svg-icons";
-import "../css/Process.css";
+import { faPenRuler, faHammer, faHouse, faBoreHole } from "@fortawesome/free-solid-svg-icons";
+import ProcessCard from "../components/ProcessCard";
 
 function Process() {
-
   return (
-    <div className="ba-section">
+    <div className="services">
+      <h3 className="services-title">
+        <span>Quy Trình Xử Lý</span>
+      </h3>
+      <table className="services-table">
+        <tbody>
+          <tr>
+            <td>
+              <ProcessCard
+                title="THIẾT KẾ NỘI VÀ NGOẠI THẤT"
+                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
+                icon={faPenRuler}
+              />
+            </td>
+            <td>
+              <ProcessCard
+                title="THI CÔNG NỘI VÀ NGOẠI THẤT"
+                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
+                icon={faHammer}
+              />
+            </td>
 
-      <div className="ba-text-content">
-        <h3 className="ba-title">
-          <span>Processing Steps</span>
-        </h3>
+            <td>
+              <ProcessCard
+                title="THIẾT KẾ KIẾN TRÚC, KẾT CẤU"
+                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
+                icon={faHouse}
+              />
+            </td>
 
-        <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#F8560F" }} /> STEP 1
-        </p>
-        <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#F8560F" }} /> STEP 2
-        </p>
-        <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#F8560F" }} /> STEP 3
-        </p>
-        <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#F8560F" }} /> STEP 4
-        </p>
-        <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#F8560F" }} /> STEP 5
-        </p>
-
-      </div>
+            <td>
+              <ProcessCard
+                title="CUNG CẤP, THI CÔNG ĐÓNG, ÉP CỌC"
+                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
+                icon={faBoreHole}
+              />
+            </td>
+          </tr>
+          {/* Add more rows as needed */}
+        </tbody>
+      </table>
     </div>
   );
 }

@@ -1,5 +1,9 @@
 .services{
   background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
 }
 
 /* Add this CSS in your stylesheet */
@@ -14,15 +18,13 @@
 
 .services-table th,
 .services-table td {
-  padding: 8px;
+  padding: 18px;
   border: none;
-  padding-left: 120px;
-  padding-right: 120px;
   text-align: center; /* Center align table cells */
 }
 
 .services-table th {
-  background-color: #f2f2f2;
+
   font-weight: bold;
 }
 

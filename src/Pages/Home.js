@@ -1,8 +1,8 @@
 // Home.js
-import React, { useState, useEffect }  from 'react';
+import React, { useState }  from 'react';
 import imageList from '../components/ImageList'; // Import the list of image filenames
 import { Slide } from 'react-slideshow-image';
-import { faObjectGroup, faBuilding, faHouse, faCampground } from "@fortawesome/free-solid-svg-icons";
+import { faPenRuler, faHammer, faHouse, faBoreHole } from "@fortawesome/free-solid-svg-icons";
 import InformationCard from "../components/InformationCard";
 import Process from '../components/Process';
 import 'react-slideshow-image/dist/styles.css';
@@ -54,39 +54,39 @@ const Home = () => {
 
             <div className='services'>
                 <h3 className="services-title">
-                    <span>Services</span>
+                    <span>Dịch Vụ</span>
                 </h3>
                 <table className="services-table">
                     
                     <tbody>
                         <tr>
                             <td><InformationCard
-                                title="Designing"
-                                description="We Design ..."
-                                icon={faObjectGroup}
+                                title="THIẾT KẾ NỘI VÀ NGOẠI THẤT"
+                                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
+                                icon={faPenRuler}
                                 />
                             </td>
                             <td>
                                 <InformationCard
-                                title="Constructing"
-                                description="Constructing ..."
-                                icon={faBuilding}
+                                title="THI CÔNG NỘI VÀ NGOẠI THẤT"
+                                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
+                                icon={faHammer}
                                 />
                             </td>
 
                             <td>
                                 <InformationCard
-                                title="Finishing Appliance"
-                                description="Finishing Appliance ..."
+                                title="THIẾT KẾ KIẾN TRÚC, KẾT CẤU"
+                                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
                                 icon={faHouse}
                                 />
                             </td>
                             
                             <td>
                                 <InformationCard
-                                title="Concrete Flooring"
-                                description="Concrete Flooring ..."
-                                icon={faCampground}
+                                title="CUNG CẤP, THI CÔNG ĐÓNG, ÉP CỌC"
+                                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
+                                icon={faBoreHole}
                                 />
                                 </td>
                         </tr>

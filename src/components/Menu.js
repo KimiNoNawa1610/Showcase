@@ -12,12 +12,12 @@ const Menu = () => {
       <img src='/logo.png' alt="logo" className="logo" />
       {/* List of navigation links */}
       <ul className="menu-list">
-        <li><Link to="/">HOME</Link></li>
-        <li><Link to="/about">ABOUT</Link></li>
-        <li><Link to="/services">SERVICES</Link></li>
-        <li><Link to="/projects">PROJECTS</Link></li>
-        <li><Link to="/blog">BLOG</Link></li>
-        <li><Link to="/contact">CONTACT</Link></li>
+        <li><Link to="/">Trang Chủ</Link></li>
+        <li><Link to="/about">Giới Thiệu</Link></li>
+        <li><Link to="/services">Dịch Vụ</Link></li>
+        <li><Link to="/projects">Công Trình</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li class="contact"><Link to="/contact">Liên Hệ Chúng Tôi</Link></li>
       </ul>
     </nav>
   );

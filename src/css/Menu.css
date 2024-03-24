@@ -29,7 +29,11 @@
     font-weight: bold;
     background-color: white;
     color:#333;
+  }
 
+  .contact{
+    background-color: #f8550fcc ;
+    border-radius: 10px;
   }
   
   
