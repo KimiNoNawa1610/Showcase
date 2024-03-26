@@ -39,7 +39,7 @@ const Home = () => {
         <div>
 
             <br/>
-
+            <div className='slide'>
             <Slide>
                 {imageList.map((slideImage, index)=> (
                     <div key={index}>
@@ -49,6 +49,9 @@ const Home = () => {
                     </div>
                 ))} 
             </Slide>
+
+            </div>
+            
 
             <br/>
 

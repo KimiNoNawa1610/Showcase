@@ -12,34 +12,7 @@ function Process() {
         <tbody>
           <tr>
             <td>
-              <ProcessCard
-                title="THIẾT KẾ NỘI VÀ NGOẠI THẤT"
-                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
-                icon={faPenRuler}
-              />
-            </td>
-            <td>
-              <ProcessCard
-                title="THI CÔNG NỘI VÀ NGOẠI THẤT"
-                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
-                icon={faHammer}
-              />
-            </td>
-
-            <td>
-              <ProcessCard
-                title="THIẾT KẾ KIẾN TRÚC, KẾT CẤU"
-                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
-                icon={faHouse}
-              />
-            </td>
-
-            <td>
-              <ProcessCard
-                title="CUNG CẤP, THI CÔNG ĐÓNG, ÉP CỌC"
-                description="This is the description of the first feature of our app. We are going to briefly outline what this feature does"
-                icon={faBoreHole}
-              />
+              <ProcessCard/>
             </td>
           </tr>
           {/* Add more rows as needed */}
