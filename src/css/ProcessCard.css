@@ -1,56 +1,76 @@
-.card {
-    border-radius: 10px;
-    border: 2px solid #ccc;
-    overflow: hidden;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
-  }
-  
-  .card-header {
-    display: flex;
-    align-items: center;
-    background-color: #f8560f;
-    align-items: center;
-    margin: 10px;
-    border-radius: 10px;
-  }
-  
-  .card-number {
-    background-color: white;
-    color: #f8560f;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin: 5px;
-  }
-  
-  .card-title {
-    background-color: #f8560f;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  
-  .card-content {
-    padding: 20px;
-  }
-  
-  .card-image {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
-  
-  .card-description {
-    margin-top: 10px;
-  }
+/* ProcessCard.css */
 
-  .row{
-    display: flex;
+.process-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.processrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.processcard {
+  width: 300px;
+  margin: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.processcard-header {
+  height: 80px; /* Set a fixed height for all process card headers */
+  padding: 15px;
+  background-color: #F8560F;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.processcard-number {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: #F8560F;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  overflow: visible;
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.processcard-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.processcard-content {
+  padding: 15px;
+}
+
+.processcard-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.processcard-description {
+  margin-top: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .processcard {
+    width: calc(50% - 20px);
   }
+}
+
+  
   

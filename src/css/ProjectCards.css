@@ -1,0 +1,79 @@
+.projectcard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .projectcard {
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: calc(100% - 20px);
+    }
+  }
+
+  
+  .projectcard {
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectcard-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .projectcard-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .projectcard-content {
+    padding: 1rem;
+  }
+  
+  .projectcard-content h3 {
+    margin-top: 0;
+  }
+  
+  .projectcard-content p {
+    margin-bottom: 1rem;
+  }
+  
+  .projectmenu{
+    margin: 1.5rem;
+  }
+
+  .projectmenu button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  
+  .projectmenu button:hover {
+    background-color: #ddd;
+  }
+  
+  .projectmenu button.selected {
+    background-color: black;
+    color: white;
+  }

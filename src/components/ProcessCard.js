@@ -4,18 +4,18 @@ import '../css/ProcessCard.css' // Import CSS file for styling
 // Card component representing a single card with a number, title, image, and description
 const Card = ({ number, title, image, description }) => {
   return (
-    <div className="card">
-      <div className="card-header">
+    <div className="processcard">
+      <div className="processcard-header">
         {/* Number displayed in a white square */}
-        <div className="card-number">{number}</div>
+        <div className="processcard-number">{number}</div>
         {/* Title of the card with background color */}
-        <div className="card-title">{title}</div>
+        <div className="processcard-title">{title}</div>
       </div>
-      <div className="card-content">
+      <div className="processcard-content">
         {/* Image of the card */}
-        <img className="card-image" src={image} alt={title} />
+        <img className="processcard-image" src={image} alt={title} />
         {/* Description of the card */}
-        <div className="card-description">{description}</div>
+        <div className="processcard-description">{description}</div>
       </div>
     </div>
   );
@@ -24,7 +24,7 @@ const Card = ({ number, title, image, description }) => {
 // RowOfCards component representing a row of cards
 const RowOfCards = ({ data, startIndex }) => {
   return (
-    <div className="row">
+    <div className="processrow">
       {/* Map over the data array to render each card */}
       {data.map((item, index) => (
         <Card

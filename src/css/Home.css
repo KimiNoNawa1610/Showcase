@@ -1,19 +1,18 @@
-.services{
+/* Default styles for services section */
+.services {
   background-color: lightgray;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
+  padding: 20px;
+  text-align: center;
 }
 
-/* Add this CSS in your stylesheet */
 .services-container {
-  text-align: center; /* Center align content */
+  display: flex;
+  justify-content: center;
 }
 
 .services-table {
-  border-collapse: collapse;
   margin: 0 auto; /* Center align table */
+  width: 80%; /* Adjust width for larger screens */
 }
 
 .services-table th,
@@ -21,28 +20,36 @@
   padding: 18px;
   border: none;
   text-align: center; /* Center align table cells */
+  width: 20%;
 }
 
 .services-table th {
-
   font-weight: bold;
 }
 
-.consulting{
-  background-color: blueviolet;
-}
-
-.customer-benefits{
-  background-color: brown;
-}
-
-.services-title{
+.services-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: .7px;
 }
 
-.slide{
-  
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .services {
+    flex-direction: row; /* Change direction to row for smaller screens */
+  }
+
+  .services-container{
+    flex-wrap: wrap;
+  }
+
+  .services-table {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .services-table th,
+  .services-table td {
+    width: 100%; /* Full width for smaller screens */
+  }
 }

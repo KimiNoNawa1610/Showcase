@@ -181,9 +181,9 @@
     top: 50%;
     left: 85%;
     transform: translate(-50%, -50%);
-    width: 16%;
+    width: 20%;
     height: 22%;
-    font-size: 110%;
+    font-size: 1.5rem;
     background-color: #F8560F;
     color: white;
     border: 2px solid white;
@@ -215,4 +215,12 @@
   .contact-logo {
     width: 6%; /* Adjust the width of the logo as needed */
     margin-right: 10px; /* Add spacing between the logo and the title */
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .contact-button {
+        width: 22%;
+        font-size: 1rem;
+    }
   }

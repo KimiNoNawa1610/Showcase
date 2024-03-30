@@ -1,5 +1,4 @@
 import React from "react";
-import { faPenRuler, faHammer, faHouse, faBoreHole } from "@fortawesome/free-solid-svg-icons";
 import ProcessCard from "../components/ProcessCard";
 
 function Process() {
