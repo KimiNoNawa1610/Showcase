@@ -27,8 +27,7 @@
   
   .menu-list li a:hover {
     font-weight: bold;
-    background-color: white;
-    color:#333;
+    color:rgb(105, 105, 197);
   }
 
   .contact{

@@ -5,7 +5,7 @@ import "../css/Layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="mainbody">
       <Menu />
       <div className="content">{children}</div>
       <br />
@@ -18,6 +18,13 @@ const Layout = ({ children }) => {
           />
           <button className="contact-button">Liên Hệ Chúng Tôi</button>{" "}
           {/*This is where we will put the contact link like email or something*/}
+        </div>
+        <div className="partners">
+        <img
+            src="/partners.jpg"
+            alt="partners-img"
+            className="partnersimg"
+          />
         </div>
         <div className="ft-list" id="contact">
           <p className="ft-list-title">

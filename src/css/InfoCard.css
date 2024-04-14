@@ -7,7 +7,7 @@
 }
 .info-cards {
     height: auto;
-    border: 2px solid #d7d3d3;
+    border: 2px solid white;
     border-radius: 12px;
     background-color: #FBEFEA;
     position: relative;
@@ -43,3 +43,12 @@
     width: 90%;
     font-size: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .info-card-title{
+        font-size: 1rem;
+    }
+    .info-card-description{
+        font-size: 0.7rem;
+    }
+  }
